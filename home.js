@@ -1,6 +1,6 @@
 // Show picture after 10 seconds
 setTimeout(function () {
-    document.getElementById("profilePic").style.display = "block";
+    document.getElementById("hamburger").style.display = "block";
 
 }, 10000);
 
