@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <title>Staff Page</title>
+    
+    <link rel="stylesheet" href="staff.css">
+</head>
+
+<body>
+    <header>
+        <h1>Staff information</h1>
+    </header>
+
+        <nav>
+            <li><a href="home.html">Home</a></li>
+            <li><a href="grade.html">Grade Converter</a></li>
+            <li><a href="staff.html">Staff Page</a></li>
+            <li><a href="temp.html">Temperature Converter</a></li>
+        </nav>
+
+    <main>
+        
+        <div class="container">
+            
+            <div class="buttons">
+                
+                <button onclick="sortNameAsc()">
+                    Sort Name Ascending
+                </button>
+                
+                <button onclick="sortNameDesc()">
+                    Sort Name Descending
+                </button>
+                
+                <button onclick="sortSalaryAsc()">
+                    Sort Salary Ascending
+                </button>
+
+                <button onclick="sortSalaryDesc()">
+                    Sort Salary Descending
+                </button>
+
+            </div>
+
+            <table>
+
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Office</th>
+                        <th>ID</th>
+                        <th>Start Date</th>
+                        <th>Salary</th>
+                    </tr>
+                </thead>
+                <tbody id="staffTable">
+
+                </tbody>
+
+            </table>
+
+        </div>
+
+    </main>
+
+    <footer>
+        <p>Your Name</p>
+        <p>Copyright © 2026</p>
+    </footer>
+
+    <script src="staff.js"></script>
+
+</body>
+</html>
